@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CSS FORM ASSIGNMENT</title>
+<style>
+    
+    body{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        height: 50vh;
+        margin-top: 200px;
+        font-family:sans-serif;
+        background-color: burlywood;
+    }
+    .form{
+        background-color: aliceblue;
+        height:500px;
+        width:300px;
+        margin:100px;
+        padding:20px;
+        border-radius: 15px;
+        box-shadow: 1px 1px 5px 5px;
+        
+        align:center;
+
+    }
+    fieldset{
+        align:center;
+
+    }
+    .input{
+        border-color:aliceblue;
+        padding: 5px;
+        padding-left:10px;
+        margin-top:5px;
+        
+    }
+    .credentials{
+        margin-top:20px;
+    }
+    .location{
+        margin-top:10px;
+    }
+    .reachedUs{
+        margin-top:10px;
+    }
+</style>
+</head>
+
+
+
+
+<body>
+
+    <div class="form">
+	
+
+            <fieldset>
+                <legend>Sign In</legend>
+                <div class="credentials">
+    
+                    <label for="email">Enter your Email</label> 
+                    <br>
+                    <input type="text" class="input" placeholder="Email">
+                    <br>
+                    <label for="username">Username</label> 
+                    <br>
+                    <input type="text" class="input" placeholder="username">
+                    <br>
+                    <label for="password">Enter your password</label>
+                    <br>  
+                    <input type="Text" class="input" placeholder="password">
+                    <br> 
+                    <label for="password">Confirm your password</label>
+                    <br>
+                    <input type="Password" class="input" placeholder="password">
+                </div>
+    
+                <div class="location">
+                    <label for="location">Enter your location</label>
+                    <br>
+                    <select name="location" id="location">
+                        <option value="null">select</option>
+                        <option value="location 1">location 1</option>
+                        <option value="location 2">location 2</option>
+                        <option value="location 3">location 3</option>
+                        <option value="location 4">location 4</option>
+                      </select>
+                </div>
+                <div class="reachedUs">
+                    <label for="know">How do you get to know about us?</label>
+                    <br>
+                    <br>
+                    <select name="know" id="know">
+    
+                        <option value="null">select</option>
+                        <option value="friends">friends</option>
+                        <option value="social media">social media</option>
+                        <option value="advertisement">advertisement</option>
+                        <option value="others">others</option>
+                      </select>
+                </div>
+    
+                <div class="save">
+                    <br>
+                    <label>Enter your date of birth</label>
+                    <br>
+                    <br>
+                    <input type="date">
+                    <br>
+                    <input type="checkbox" class="input"><label>save my login credentials</label>
+                    
+                    <br>
+                    <input type="submit" value="submit">
+                </div>
+    
+    
+            </fieldset>
+        
+   
+    </div>
+
+</body>
+
+</html>
